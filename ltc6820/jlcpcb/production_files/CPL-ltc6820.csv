@@ -1,0 +1,11 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,27p,C_0603_1608Metric,90.17,-64.91,90.0,top
+C2,0.1u,C_0603_1608Metric,80.01,-69.99,-90.0,top
+J1,Conn_01x06_Pin,PinHeader_1x06_P2.54mm_Horizontal,76.2,-64.77,180.0,top
+J2,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Horizontal,94.04,-71.61,0.0,top
+R1,120,R_0603_1608Metric,90.17,-68.77,-90.0,top
+R2,2.8k,R_0603_1608Metric,90.17,-58.305,-90.0,top
+R3,1.2k,R_0603_1608Metric,90.17,-61.785,-90.0,top
+R4,1k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,85.852,-73.279,180.0,top
+T1,78613_3C,78613_3C,98.552,-62.3926,0.0,top
+U1,~,MSOP-16_3x4.039mm_P0.5mm,85.335,-65.25,0.0,top

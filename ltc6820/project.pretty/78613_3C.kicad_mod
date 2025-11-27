@@ -1,0 +1,196 @@
+(footprint "78613_3C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "78613/3C <BR>Pulse Transformers 1CT:1 200 UH <BR><a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf>Datasheet</a>")
+	(property "Reference" "REF**"
+		(at -2.286 -5.969 0)
+		(layer "F.SilkS")
+		(uuid "6f901cdb-a4c5-46db-a851-5f5db6a55214")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "78613_3C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a4805ea-ddd6-4c58-8f5a-86a4ffab82fe")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2e01a7a-c64d-4e4a-ae3e-3a58fcd8eec3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3613087c-38b8-403b-ba85-434a2d1dfcee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.75996 -4.58089)
+		(end -4.75996 4.58089)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca72c954-f7df-4e5b-b175-fddf1f6e567a")
+	)
+	(fp_line
+		(start -4.75996 4.58089)
+		(end 4.75996 4.58089)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f2260fa-6c56-43bf-badc-16dffc46ac70")
+	)
+	(fp_line
+		(start 4.75996 -4.58089)
+		(end -4.75996 -4.58089)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a80abbb1-fac4-421e-aaec-a6912dd23702")
+	)
+	(fp_line
+		(start 4.75996 4.58089)
+		(end 4.75996 -4.58089)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ba57bbe-107f-4ac7-a23c-36f24b33edb8")
+	)
+	(fp_circle
+		(center -5.207 -5.969)
+		(end -4.953 -5.969)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ea8a4e0a-e4ce-4210-9d2b-58281ee080bb")
+	)
+	(fp_poly
+		(pts
+			(xy -6.35 -3.81) (xy -3.81 -3.81) (xy -3.81 3.81) (xy -6.35 3.81)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.CrtYd")
+		(uuid "f7e911ee-4dbd-44a0-8c47-ebf977708185")
+	)
+	(fp_poly
+		(pts
+			(xy 3.81 -3.81) (xy 6.35 -3.81) (xy 6.35 3.81) (xy 3.81 3.81)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.CrtYd")
+		(uuid "a9c59b69-c0fb-4a2f-89cd-a704b70cc412")
+	)
+	(fp_poly
+		(pts
+			(xy -6.35 -5.3848) (xy 6.35 -5.3848) (xy 6.35 5.3848) (xy -6.35 5.3848)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "77e8b0fe-7ac9-41d4-a738-5b9b45941024")
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 -2.54)
+		(size 1.2 1.2)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "339e728c-58cd-4e34-b9bf-6b7f966ae81b")
+	)
+	(pad "2" thru_hole circle
+		(at -5.08 0)
+		(size 1.2 1.2)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "dfa6a742-90e3-41db-8e9e-06bef784f621")
+	)
+	(pad "3" thru_hole circle
+		(at -5.08 2.54)
+		(size 1.2 1.2)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b8b7b73b-43b7-4897-8007-d6563b22f720")
+	)
+	(pad "4" thru_hole circle
+		(at 5.08 2.54)
+		(size 1.2 1.2)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9f46da98-fe69-4beb-b524-e704ca48daec")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 1.2 1.2)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "476fb586-5798-4acc-805f-7863f0f79152")
+	)
+	(pad "6" thru_hole circle
+		(at 5.08 -2.54)
+		(size 1.2 1.2)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d92859d6-4f4a-4490-85d1-c3a5c5e2897e")
+	)
+	(embedded_fonts no)
+)
