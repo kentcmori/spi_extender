@@ -1,11 +1,11 @@
 Comment,Designator,Footprint,LCSC,Quantity
-0.1u,C2,C_0603_1608Metric,C14663,1
+0.1u,"C1,C2",C_0603_1608Metric,C14663,2
 1.2k,R3,R_0603_1608Metric,C22765,1
 120,R1,R_0603_1608Metric,C22787,1
 2.8k,R2,R_0603_1608Metric,C13167,1
-27p,C1,C_0603_1608Metric,C107045,1
 ~,U1,MSOP-16_3x4.039mm_P0.5mm,C689580,1
 78613_3C,T1,78613_3C,,1
-1k,R4,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1
+10k,R4,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1
 Conn_01x06_Pin,J1,PinHeader_1x06_P2.54mm_Horizontal,,1
 Conn_01x02_Pin,J2,PinHeader_1x02_P2.54mm_Horizontal,,1
+10k,R5,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,1
